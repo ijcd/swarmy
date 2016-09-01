@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = git@github.com:ijcd/swarm.git
+	branch = master
+	commit = 9ae7235326dc4acd1ff2cf56e5e135b815b85108
+	parent = 296ceb20470e8daf5d02c26255ccbe2e818aeb99
+	cmdver = 0.3.0
