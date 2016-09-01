@@ -16,6 +16,7 @@ WORKDIR /app
 
 # Install Elixir Deps
 ADD mix.* ./
+ADD apps/swarmy_web/mix.* ./apps/swarmy_web/
 RUN MIX_ENV=prod mix local.rebar
 RUN MIX_ENV=prod mix local.hex --force
 RUN MIX_ENV=prod mix deps.get
